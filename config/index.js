@@ -42,7 +42,7 @@ const prod = {
   url: {
     baseURL: '"https://api.bstu.cn"',
     otherURL: '"https://api.bstu.cn"',
-    socketUrl: '"https://api.bstu.cn/socket"',
+    socketUrl: '"https://api.bstu.cn:4000"',
   }
 };
 
