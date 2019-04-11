@@ -1,6 +1,11 @@
-# blog-serve
+# 聊天客户端
 
-> 聊天客户端
+![效果图](http://oss.bstu.cn/images/20190404/82oxlrmlfakv3szz.png)
+
+> 聊一聊
+
+* [注册账号](https://yun.bstu.cn/#/register)
+* [聊天入口](http://chat.bstu.cn/)
 
 ## Dev Setup
 
