@@ -6,7 +6,7 @@ const dev = {
   url: { // 自定义api前缀(在webpack的插件DefinePlugin中配置为URL,即可在项目中直接URL.baseURL来使用)
     baseURL: '"http://localhost:3006"', // 默认api前缀
     otherURL: '"http://localhost:3002"', // 其他api前缀
-    socketUrl: '"http://localhost:4000"', // socketUrl前缀
+    socketUrl: '"http://localhost:3006"', // socketUrl前缀
   }
 };
 
@@ -18,7 +18,7 @@ const test = {
   url: {
     baseURL: '"http://localhost:3006"',
     otherURL: '"http://localhost:3002"',
-    socketUrl: '"http://localhost:4000"',
+    socketUrl: '"http://localhost:3006"',
   }
 };
 
@@ -30,7 +30,7 @@ const pre = {
   url: {
     baseURL: '"http://localhost:3006"',
     otherURL: '"http://localhost:3002"',
-    socketUrl: '"http://localhost:4000"',
+    socketUrl: '"http://localhost:3006"',
   }
 };
 
@@ -42,7 +42,7 @@ const prod = {
   url: {
     baseURL: '"https://api.bstu.cn"',
     otherURL: '"https://api.bstu.cn"',
-    socketUrl: '"https://api.bstu.cn:4000"',
+    socketUrl: '"https://api.bstu.cn"',
   }
 };
 

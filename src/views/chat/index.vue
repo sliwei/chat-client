@@ -317,7 +317,9 @@
         user: sessionStorage.getItem('user'), //
         name: sessionStorage.getItem('name'), //
         head_img: sessionStorage.getItem('head_img'), //
-        socket: io.connect(URL.socketUrl),
+        socket: io.connect(URL.socketUrl + '/chat-namespace', {
+          path: '/chat-ws'
+        }),
         messageList: [],
         val: '',
         userList: [],
