@@ -317,6 +317,7 @@
         user: sessionStorage.getItem('user'), //
         name: sessionStorage.getItem('name'), //
         head_img: sessionStorage.getItem('head_img'), //
+        // socket: io.connect(URL.socketUrl, {
         socket: io.connect(URL.socketUrl + '/chat-namespace', {
           path: '/chat-ws'
         }),
@@ -456,6 +457,6 @@
 </script>
 
 <style lang="less" scoped>
-  @import "http://www.17sucai.com/preview/776331/2018-07-23/AmazeWeixin/css/amazeui.min.css";
+  @import "https://i.bstu.cn/css/amazeui.min.css";
   @import "./less/chat.less";
 </style>
