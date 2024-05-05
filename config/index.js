@@ -38,7 +38,7 @@ const pre = {
 const prod = {
   NODE_ENV: 'production',
   dist: './dist/prod',
-  publicPath: 'https://i.bstu.cn/static/chat-client/',
+  publicPath: '/',
   url: {
     baseURL: '"https://api.bstu.cn"',
     otherURL: '"https://api.bstu.cn"',
