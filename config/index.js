@@ -13,8 +13,6 @@ const dev = {
 // 测试
 const test = {
   NODE_ENV: 'production',
-  dist: './dist/test',
-  publicPath: '/',
   url: {
     baseURL: '"http://localhost:3006"',
     otherURL: '"http://localhost:3002"',
@@ -23,10 +21,8 @@ const test = {
 };
 
 // 预发
-const pre = {
+const prod = {
   NODE_ENV: 'production',
-  dist: './dist/pre',
-  publicPath: '/',
   url: {
     baseURL: '"http://localhost:3006"',
     otherURL: '"http://localhost:3002"',
@@ -35,10 +31,8 @@ const pre = {
 };
 
 // 线上
-const prod = {
+const live = {
   NODE_ENV: 'production',
-  dist: './dist/prod',
-  publicPath: 'https://i.bstu.cn/static/chat-client/',
   url: {
     baseURL: '"https://api.bstu.cn"',
     otherURL: '"https://api.bstu.cn"',
@@ -49,6 +43,6 @@ const prod = {
 module.exports = {
   dev,
   test,
-  pre,
   prod,
+  live
 };

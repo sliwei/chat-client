@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "build:test": "cross-env ENV=test webpack",
-    "build:pre": "cross-env ENV=pre webpack",
-    "build:prod": "cross-env ENV=prod webpack"
+    "build:prod": "cross-env ENV=prod webpack",
+    "build:live": "cross-env ENV=live webpack"
   },
   "dependencies": {
     "axios": "^0.18.0",

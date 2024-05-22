@@ -157,10 +157,10 @@ const env = {
   production: {
     devtool: false,
     output: {
-      path: path.resolve(__dirname, conf[FILE_ENV].dist),
+      path: path.resolve(__dirname, 'dist'),
       filename: 'static/js/[name].[chunkhash:5].chunk.js',
       chunkFilename: 'static/js/[name].[chunkhash:5].chunk.js',
-      publicPath: conf[FILE_ENV].publicPath
+      // publicPath: conf[FILE_ENV].publicPath
     },
     stats: {
       colors: true,
